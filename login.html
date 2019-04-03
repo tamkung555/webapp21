@@ -7,9 +7,8 @@
         <link href="./css/login.css" rel="stylesheet" type="text/css"/>
         <meta content="Launchpad by Anima" name="author">
         </meta>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        <script src="js/login.js" charset="utf-8" type="text/javascript"></script>
     </head>
     <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
@@ -51,20 +50,15 @@
                     <img anima-src="./img/login-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <div class="group5">
                         <div anima-show-on-scroll="" class="buttonlogin anima-animate-enter7">
-                            <div anima-show-on-scroll="" class="button anima-animate-enter6">
-                                
+                            <button anima-show-on-scroll="" class="button anima-animate-enter6" onclick="doLogin()">
                                 <div class="rectangle10">
                                 </div>
-                                <div class="login1" type="button" onclick="doLogin()">
+                                <div class="login1" type="button">
                                     LOGIN
-                                    
                                 </div>
-                                
-                                
-
-                            </div>
+                            </button>
                         </div>
-                        <div class="form">
+                        <form class="form">
                             <div class="password">
                                 <div class="rectangle34">
                                 </div>
@@ -93,7 +87,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                         <div class="illustration">
                             <!-- <a href="c11searchc.html"> -->
                                 <div anima-show-on-scroll="" class="volunteer anima-animate-enter8">
@@ -401,40 +395,5 @@
             }, 250);
         </script>
         <!-- End of Scripts -->
-
-        <script type="text/javascript">
-            function doLogin(){
-                
-                jQuery.ajax({
-                    url: "https://hookb.in/yDBDgDPgrXtO7OPzwPee",
-                    type: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                        
-                    },
-                    contentType: "application/json",
-                    data: JSON.stringify({
-                        "username": document.getElementById("username").value,
-                        "password": document.getElementById("password").value
-                    })
-                })
-                .done(function(data, textStatus, jqXHR) {
-                    console.log("HTTP Request Succeeded: " + jqXHR.status);
-                    console.log(data); //Return Data
-                    if (jqXHR.status == 200) {
-                        //window.location = "p11searchp.html"
-                        window.location.replace( "/p11searchp.html" )
-                    };
-                })
-                .fail(function(jqXHR, textStatus, errorThrown) {
-                    console.log("HTTP Request Failed");
-                    
-                })
-                .always(function() {
-                    /* ... */
-                });
-            }
-          </script>
-
     </body>
 </html>

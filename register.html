@@ -266,12 +266,12 @@
 
 
                                 function addMarker(lon, lat) {
-                                console.log('lon:', lon);
-                                console.log('lat:', lat);
-
+                                //console.log('lon:', lon);
+                                //console.log('lat:', lat);
+ 
                                 // TODO : Edit code
-                                document.getElementById("lon").value = lat;
-                                document.getElementById('lon').value = lon;
+                                document.getElementById("lat").value= lat;
+                                document.getElementById('lon').value= lon;
 
                                 var iconFeatures = [];
 
@@ -284,15 +284,19 @@
                                 });
 
                                 markerSource.addFeature(iconFeature);
+
                                 }
 
                                 map.on('singleclick',function(event){
                                 var lonLat = ol.proj.toLonLat(event.coordinate);
                                 addMarker(lonLat[0], lonLat[1]);
+                                
+                                console.log(document.getElementById("lat").value);
+                                console.log(document.getElementById("lon").value);
+                            
                                 });
                                 
                             </script>
-
                             
                    </div> 
                 <!-- </div> -->

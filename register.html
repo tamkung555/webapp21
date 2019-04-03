@@ -166,84 +166,22 @@
                 <img anima-src="./img/register-calendar-icon@2x.png" class="calendaricon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
             <div class="group3">
-                <!-- <div class="bitmap">
-                    <img anima-src="./img/register-mask.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    <img anima-src="./img/register-bitmap.png" class="bitmap1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                </div>
-                <div class="googlemapsactions">
-                    <div class="zoom">
-                        <img anima-src="./img/register-rectangle-32@2x.png" class="rectangle32" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <div class="iczoomout">
-                        </div>
-                        <div class="iczoomin">
-                            <div class="rectangle34">
-                            </div>
-                            <div class="rectangle35">
-                            </div>
-                        </div>
-                        <img anima-src="./img/register-separator@2x.png" class="separator" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                    </div>
-                    <div class="location1">
-                        <img anima-src="./img/register-rectangle-32-copy@2x.png" class="rectangle32copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <div class="iclocation">
-                            <div class="group1">
-                                <img anima-src="./img/register-oval-6@2x.png" class="oval6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                <img anima-src="./img/register-oval-5@2x.png" class="oval5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                                <div class="rectangle37">
-                                </div>
-                                <div class="rectangle37copy">
-                                </div>
-                                <div class="rectangle37copy2">
-                                </div>
-                                <div class="rectangle37copy3">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="showimagery">
-                        <img anima-src="./img/register-rectangle-32-1@2x.png" class="rectangle32" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <div class="imagery">
-                            <img anima-src="./img/register-up2@2x.png" class="up2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/register-up2@2x.png" class="up1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        </div>
-                        <div class="bitmapbitmapbitmap">
-                            <img anima-src="./img/register-bitmap-1@2x.png" class="bitmap3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/register-bitmap-2@2x.png" class="bitmap1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/register-bitmap-3@2x.png" class="bitmap2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        </div>
-                        <img anima-src="./img/register-line@2x.png" class="line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        <div class="yellowman">
-                            <img anima-src="./img/register-body@2x.png" class="body" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                            <img anima-src="./img/register-scarf@2x.png" class="scarf" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
-                        </div>
-                    </div> -->
+               
                     <div id="lat" type="hidden"></div>
                     <div id="lon" type="hidden"></div>
                     <div id="map" class="map">
                             <script type="text/javascript">
-                                
-                                //var map = new ol.Map({
-                                //    target: 'map',
-                                //    layers: [
-                                //    new ol.layer.Tile({
-                                //        source: new ol.source.OSM()
-                                //    })
-                                //    ],
-                                //    view: new ol.View({
-                                //    center: ol.proj.fromLonLat([100.5577409, 13.8535583]),
-                                //    zoom: 15
-                                //    })
-
-                                //});
+                            
                                 const markerSource = new ol.source.Vector();
 
                                 var markerStyle = new ol.style.Style({
                                 image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
-                                    anchor: [0.5, 46],
+                                    anchor: [0.5, 10],
                                     anchorXUnits: 'fraction',
                                     anchorYUnits: 'pixels',
                                     opacity: 0.75,
-                                    src: 'https://openlayers.org/en/v5.3.0/examples/data/icon.png'
+                                    //src: 'https://openlayers.org/en/v5.3.0/examples/data/icon.png',
+                                    src: 'img/pindrop.png'
                                 }))
                                 });
 

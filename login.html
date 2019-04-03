@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/login.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="login"/>
+        <div class="login">
+            <div style="width: 1440px; height: 100%; position:relative; margin:auto;">
+                <div class="bg">
+                    <img anima-src="./img/login-bg.png" class="bg1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="group">
+                    <div class="header">
+                        <div class="home">
+                            Home
+                        </div>
+                        <div class="search">
+                            Search
+                        </div>
+                        <div class="featurescopy2">
+                            Features
+                        </div>
+                        <div class="btn-view">
+                            <div class="rectangle">
+                            </div>
+                            <div class="getstartednow">
+                                Log in/Sign up
+                            </div>
+                        </div>
+                        <a href="homepage.html">
+                            <div class="logo">
+                                <div class="peamediumprice">
+                                    PEAmedium price
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <img anima-src="./img/c-1-1-search---c-dropdown-path-8.png" class="path8" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div>
+                <div class="group7">
+                    <img anima-src="./img/login-rectangle.png" class="rectangle" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="group5">
+                        <div anima-show-on-scroll="" class="buttonlogin anima-animate-enter7">
+                            <div anima-show-on-scroll="" class="button anima-animate-enter6">
+                                
+                                <div class="rectangle10">
+                                </div>
+                                <div class="login1" type="button" onclick="doLogin()">
+                                    LOGIN
+                                    
+                                </div>
+                                
+                                
+
+                            </div>
+                        </div>
+                        <div class="form">
+                            <div class="password">
+                                <div class="rectangle34">
+                                </div>
+                                <input class="textpassword" id="password" name="textPassword" type="password" placeholder="Password"/>
+                                <div class="forgot">
+                                    Forgot?
+                                </div>
+                                <div class="ionioslockedoutlineionicons">
+                                    
+                                </div>
+                                <div class="rectangle8copy">
+                                </div>
+                            </div>
+                            <div class="email">
+                                <div class="rectangle34">
+                                </div>
+                                <input class="textemailidcard" id="username" name="textEMailIdCard" placeholder="E-mail / ID Card"/>
+                                <div class="ioniosemailoutlineionicons">
+                                    
+                                </div>
+                                <div class="label">
+                                    <div class="rectangle36">
+                                    </div>
+                                    <div class="emailidcard">
+                                        <span class="span1">E-mail / ID Car</span><span class="span2">d</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="illustration">
+                            <!-- <a href="c11searchc.html"> -->
+                                <div anima-show-on-scroll="" class="volunteer anima-animate-enter8">
+                                    <div class="rectanglecopy">
+                                    </div>
+                                    <div class="company">
+                                        Company
+                                    </div>
+                                    <div class="illustrationcopy">
+                                        <div class="hand">
+                                            <div class="rectangle33">
+                                            </div>
+                                            <div class="rectangle33copy">
+                                            </div>
+                                        </div>
+                                        <div class="uniform">
+                                            <div class="oval5">
+                                                <div class="mask">
+                                                </div>
+                                            </div>
+                                            <div class="rectangle9">
+                                                <img anima-src="./img/login-rectangle-9@2x.png" class="rectangle91" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            </div>
+                                            <div class="rectangle7">
+                                            </div>
+                                            <div class="rectangle7copy">
+                                            </div>
+                                            <img anima-src="./img/login-oval-4-copy@2x.png" class="oval4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-oval-4-copy@2x.png" class="oval4copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-6@2x.png" class="path6" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-6-copy@2x.png" class="path6copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <div class="neck">
+                                            <img anima-src="./img/login-mask@2x.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <div class="neckcopy">
+                                                <img anima-src="./img/login-rectangle-5-1@2x.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            </div>
+                                        </div>
+                                        <div class="head">
+                                            <img anima-src="./img/login-2-copy-5@2x.png" class="a2copy5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-2-line-1@2x.png" class="a2line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-rounded-rectangle-3-1@2x.png" class="roundedrectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-2@2x.png" class="a2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-11-copy@2x.png" class="shape11copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-4-1@2x.png" class="shape4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-11-copy1@2x.png" class="shape11copy1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-41-1@2x.png" class="shape41" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-newvectorshapedone@2x.png" class="newvectorshapedone" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-eye-1@2x.png" class="eye" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-eye-1@2x.png" class="eye1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-ellipse-3-copy@2x.png" class="ellipse3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-ellipse-3-copy@2x.png" class="ellipse3copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-6-copy-3@2x.png" class="shape6copy3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-6-copy-1@2x.png" class="shape6copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-newvectorshapedone-copy@2x.png" class="newvectorshapedonecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <div class="decoration">
+                                            <img anima-src="./img/login-path-109@2x.png" class="path109" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-109-copy@2x.png" class="path109copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-109-copy-2@2x.png" class="path109copy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- </a> -->
+                            <!-- <a href="p11searchp.html"> -->
+                                <div anima-show-on-scroll="" class="medical anima-animate-enter9">
+                                    <div class="bgdoctor">
+                                    </div>
+                                    <div class="illustration1">
+                                        <div class="uniform">
+                                            <img anima-src="./img/login-rectangle-2@2x.png" class="rectangle2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-rectangle-3@2x.png" class="rectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <div class="crease">
+                                                <img anima-src="./img/login-path-2@2x.png" class="path2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-path-3@2x.png" class="path3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-path-4@2x.png" class="path4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-path-5@2x.png" class="path5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-path-7@2x.png" class="path7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-path-7-copy@2x.png" class="path7copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                                <img anima-src="./img/login-oval-3@2x.png" class="oval3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            </div>
+                                        </div>
+                                        <div class="tshirt">
+                                            <img anima-src="./img/login-mask-1@2x.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <div class="rectangle6">
+                                            </div>
+                                            <img anima-src="./img/login-oval@2x.png" class="oval" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <div class="neck">
+                                            <img anima-src="./img/login-mask@2x.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <div class="neckcopy">
+                                                <img anima-src="./img/login-rectangle-5-1@2x.png" class="rectangle5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            </div>
+                                        </div>
+                                        <div class="head">
+                                            <img anima-src="./img/login-2-copy-5@2x.png" class="a2copy5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-2-line-1@2x.png" class="a2line" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-rounded-rectangle-3-1@2x.png" class="roundedrectangle3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-2@2x.png" class="a2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-11-copy@2x.png" class="shape11copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-4-1@2x.png" class="shape4" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-11-copy1@2x.png" class="shape11copy1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-41-1@2x.png" class="shape41" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-newvectorshapedone@2x.png" class="newvectorshapedone" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-eye-1@2x.png" class="eye" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-eye-1@2x.png" class="eye1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-ellipse-3-copy@2x.png" class="ellipse3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-ellipse-3-copy@2x.png" class="ellipse3copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-6-copy-3@2x.png" class="shape6copy3" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-6-copy-1@2x.png" class="shape6copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-shape-1-copy-5@2x.png" class="shape1copy5" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-newvectorshapedone-copy@2x.png" class="newvectorshapedonecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                        <div class="decoration">
+                                            <img anima-src="./img/login-path-109-1@2x.png" class="path109" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-109-copy-1@2x.png" class="path109copy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                            <img anima-src="./img/login-path-109-copy-2-1@2x.png" class="path109copy2" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                                        </div>
+                                    </div>
+                                    <div class="government">
+                                        Government
+                                    </div>
+                                </div>
+                            <!-- </a> -->
+                        </div>
+                        <div class="signintopeamediu">
+                            Sign in to PEA medium Price
+                        </div>
+                        <div class="enteryourbelowdet">
+                            Enter your below detail
+                        </div>
+                    </div>
+                </div>
+                <a href="register.html">
+                    <div class="createaccount">
+                        Create account
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <script>
+            function AnimaShowOnScroll() {
+                this.toShow = [];
+                this.nextEventY = undefined;
+            }
+            AnimaShowOnScroll.prototype.show = function(e) {
+                e.style.display = "";
+            };
+            AnimaShowOnScroll.prototype.hide = function(e) {
+                e.style.display = "none";
+            };
+            AnimaShowOnScroll.prototype.getTop = function(e) {
+                if (e.animaTop != undefined && e.animaTop != 0) {
+                    return e.animaTop;
+                }
+                var top = 0;
+                var iter = e;
+                do {
+                    top += iter.offsetTop || 0;
+                    iter = iter.offsetParent;
+                } while (iter);
+                e.animaTop = top;
+                return top;
+            };
+            AnimaShowOnScroll.prototype.onScroll = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+                    return;
+                }
+                this.nextEventY = undefined;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        this.show(e);
+                        this.toShow.shift();
+                        i--;
+                    } else {
+                        this.nextEventY = top;
+                        break;
+                    }
+                }
+            };
+            AnimaShowOnScroll.prototype.resetScrolling = function() {
+                var screenBottom = window.pageYOffset + window.innerHeight;
+                for (var i = 0; i < this.toShow.length; i++) {
+                    var e = this.toShow[i];
+                    this.show(e);
+                }
+                this.toShow = [];
+                this.nextEventY == undefined;
+                var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+                itemsToShowOnScroll = itemsToShowOnScroll.filter(function(e) {
+                    return e.getAttribute("anima-show-on-scroll") != undefined;
+                });
+                var getTop = this.getTop;
+                itemsToShowOnScroll.sort(function(a, b) {
+                    return getTop(a) - getTop(b);
+                });
+                for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+                    var e = itemsToShowOnScroll[i];
+                    var top = this.getTop(e);
+                    if (top < screenBottom) {
+                        continue;
+                    }
+                    this.toShow.push(e);
+                    this.hide(e);
+                    this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+                }
+            };
+            AnimaShowOnScroll.prototype.handleEvent = function(e) {
+                switch (e.type) {
+                    case "scroll":
+                        this.onScroll();
+                        break;
+                    case "resize":
+                        this.resetScrolling();
+                        break;
+                }
+            };
+            AnimaShowOnScroll.prototype.init = function() {
+                this.resetScrolling();
+                window.addEventListener("scroll", this);
+                window.addEventListener("resize", this);
+            };
+            setTimeout(function() {
+                var animaShowOnScroll = new AnimaShowOnScroll();
+                animaShowOnScroll.init();
+            }, 250);
+        </script>
+        <!-- End of Scripts -->
+
+        <script type="text/javascript">
+            function doLogin(){
+                
+                jQuery.ajax({
+                    url: "https://hookb.in/qBYBexO2bJsrBrJjaJRV",
+                    type: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        
+                    },
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        "username": document.getElementById("username").value,
+                        "password": document.getElementById("password").value
+                    })
+                })
+                .done(function(data, textStatus, jqXHR) {
+                    console.log("HTTP Request Succeeded: " + jqXHR.status);
+                    console.log(data); //Return Data
+                    if (jqXHR.status == 200) {
+                        //window.location = "p11searchp.html"
+                        window.location.replace( "/p11searchp.html" )
+                    };
+                })
+                .fail(function(jqXHR, textStatus, errorThrown) {
+                    console.log("HTTP Request Failed");
+                    
+                })
+                .always(function() {
+                    /* ... */
+                });
+            }
+          </script>
+
+    </body>
+</html>

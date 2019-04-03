@@ -1,0 +1,1871 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,300,700,500|Rubik:400,300,500');
+
+@font-face {
+                          font-family: "ArialRoundedMTBold";
+                          src: url('../fonts/Arial Rounded Bold.ttf') format("truetype");
+                        }
+                        
+.register {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1146px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter16 {
+  display             : block;
+  -webkit-animation   : anima-animate-enter16-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter16-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter16-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter16-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-moz-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-o-keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@keyframes anima-animate-enter16-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+.anima-animate-enter17 {
+  display             : block;
+  -webkit-animation   : anima-animate-enter17-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter17-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter17-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter17-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-moz-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-o-keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@keyframes anima-animate-enter17-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+.register .rectangle {
+  background-color    : rgba(247, 247, 248, 1.0);
+  top                 : 89px;
+  height              : 1080px;
+  width               : 706px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 241px;
+  height              : 433px;
+  width               : 650px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group2 .group6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 203px;
+  height              : 230px;
+  width               : 650px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group2 .group6 .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 230px;
+  width               : 493px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group2 .group6 .oval1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 169px;
+  width               : 650px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group2 .image {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 325px;
+  width               : 468px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 71px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 1351px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group .header .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 666px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.register .group .header .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 797px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.register .group .header .featurescopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 950px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.register .group .header .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group .header .btn-view .rectangle1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  box-sizing          : border-box;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(47, 91, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group .header .btn-view .getstartednow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(46, 91, 233, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.register .group .header .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 30px;
+  width               : 226px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group .header .logo .peamediumprice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ArialRoundedMTBold", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.register .group .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 10px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .getstartedabsolute {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 117px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 47.0px;
+}
+.register .enteryourbelowdet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 172px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.register .titleinputusername {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 216px;
+  height              : 71px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 749px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputusername .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputusername .textusermane {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputusername .textusermane::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputusername .username {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .titleinputemail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 71px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1098px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputemail .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputemail .textemail {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputemail .textemail::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputemail .workemailaddress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .titleinputpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 296px;
+  height              : 71px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 749px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputpassword .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputpassword .textpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputpassword .textpassword::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputpassword .password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .titleinputconfirmpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 295px;
+  height              : 71px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1098px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputconfirmpassword .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputconfirmpassword .textconfirmpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputconfirmpassword .textconfirmpassword::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputconfirmpassword .confirmpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .location {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 571px;
+  height              : 59px;
+  width               : 421px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .location .idcardtaxid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .location .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 22px;
+  height              : 37px;
+  box-sizing          : border-box;
+  width               : 421px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .location .textxxxxxxxxxxxxx {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 30px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .location .textxxxxxxxxxxxxx::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .locationcopy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 652px;
+  height              : 59px;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 745px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .locationcopy3 .egpid {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 48px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .locationcopy3 .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 21px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .locationcopy3 .textxxxxxxxxxxxxx {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 30px;
+  width               : 102px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .locationcopy3 .textxxxxxxxxxxxxx::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .locationcopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 731px;
+  height              : 59px;
+  width               : 421px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .locationcopy2 .companyaddress {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 174px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .locationcopy2 .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 22px;
+  height              : 37px;
+  box-sizing          : border-box;
+  width               : 421px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .locationcopy2 .textcompanyname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 23px;
+  height              : 30px;
+  width               : 100px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .locationcopy2 .textcompanyname::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputcopy4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 409px;
+  height              : 62px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy4 .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy4 .textname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputcopy4 .textname::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputcopy4 .name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 42px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .titleinputcopy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 410px;
+  height              : 60px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1096px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy5 .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 22px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy5 .textlastname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.register .titleinputcopy5 .textlastname::placeholder {
+  color               : rgba(50, 60, 71, 0.6);
+}
+.register .titleinputcopy5 .lastname {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 74px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .titleinputcopy5 .lastname .span1 {
+  
+}
+.register .titleinputcopy5 .lastname .span2 {
+  
+}
+.register .titleinputcopy7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 488px;
+  height              : 62px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1096px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy7 .inputfield {
+  background-color    : rgba(255, 255, 255, 1.0);
+  top                 : 24px;
+  height              : 38px;
+  box-sizing          : border-box;
+  width               : 299px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy7 .selectorcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 38px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .titleinputcopy7 .a66 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+}
+.register .titleinputcopy7 .phone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .group4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 492px;
+  height              : 57px;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 745px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group4 .titleinputcopy6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 104px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group4 .titleinputcopy6 .dateofbirth {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 105px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+.register .group4 .inputfield {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 37px;
+  box-sizing          : border-box;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 4px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(233, 239, 244, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group4 .selector {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 20px;
+  height              : 37px;
+  width               : 57px;
+  position            : absolute;
+  margin              : 0;
+  left                : 238px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group4 .a13november2017 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : auto;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 33px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 12.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  line-height         : 26.0px;
+}
+.register .group4 .calendaricon {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 31px;
+  height              : 15px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 258px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 810px;
+  height              : 209px;
+  width               : 659px;
+  position            : absolute;
+  margin              : 0;
+  left                : 746px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .bitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 659px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .bitmap .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 209px;
+  width               : 659px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .bitmap .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -129px;
+  height              : 509px;
+  width               : 1162px;
+  position            : absolute;
+  margin              : 0;
+  left                : -233px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 129px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 482px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 32px;
+  height              : 65px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .rectangle32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 65px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .iczoomout {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 44px;
+  height              : 3px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .iczoomin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .iczoomin .rectangle34 {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 4px;
+  height              : 3px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .iczoomin .rectangle35 {
+  background-color    : rgba(102, 102, 102, 1.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .zoom .separator {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 3px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 115px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .rectangle32copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 37px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 16px;
+  width               : 16px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 16px;
+  width               : 16px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .oval6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 12px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .oval5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 10px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .rectangle37 {
+  background-color    : rgba(209, 209, 209, 1.0);
+  top                 : 0px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .rectangle37copy {
+  background-color    : rgba(209, 209, 209, 1.0);
+  top                 : 14px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .rectangle37copy2 {
+  background-color    : rgba(209, 209, 209, 1.0);
+  top                 : 7px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .location1 .iclocation .group1 .rectangle37copy3 {
+  background-color    : rgba(209, 209, 209, 1.0);
+  top                 : 7px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 92px;
+  height              : 37px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .rectangle32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 37px;
+  width               : 152px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .imagery {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : 13px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .imagery .up2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .imagery .up1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 7px;
+  width               : 10px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .bitmapbitmapbitmap {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 10px;
+  height              : 15px;
+  width               : 60px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .bitmapbitmapbitmap .bitmap3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .bitmapbitmapbitmap .bitmap1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .bitmapbitmapbitmap .bitmap2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 18px;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 31px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .yellowman {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 20px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 14px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .yellowman .body {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 20px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .group3 .googlemapsactions .showimagery .yellowman .scarf {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : 3px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .buttonlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1056px;
+  height              : 38px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1022px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.register .buttonlogin:hover {
+  transform           : scale(1.1);
+}
+.register .buttonlogin .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 143px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.register .buttonlogin .button:hover {
+  transform           : scale(1.1);
+}
+.register .buttonlogin .button .rectangle10 {
+  background-color    : rgba(252, 92, 61, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.register .buttonlogin .button .login {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 18.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

@@ -1,0 +1,2071 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,300,700,500|Rubik:400,300,500');
+
+@font-face {
+                          font-family: "ArialRoundedMTBold";
+                          src: url('../fonts/Arial Rounded Bold.ttf') format("truetype");
+                        }
+                        
+.login {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+textarea:focus, input:focus {
+  outline             : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-animate-enter6 {
+  display             : block;
+  -webkit-animation   : anima-animate-enter6-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter6-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter6-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter6-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-moz-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-o-keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@keyframes anima-animate-enter6-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+.anima-animate-enter7 {
+  display             : block;
+  -webkit-animation   : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter7-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-moz-keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@-o-keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+@keyframes anima-animate-enter7-frames {
+  0%
+   
+  {
+    }
+  
+    
+  100%
+   
+  {
+    }
+}
+.anima-animate-enter8 {
+  opacity             : 0;
+  transform           : rotate(25deg);
+  display             : block;
+  -webkit-animation   : anima-animate-enter8-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter8-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter8-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter8-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-moz-keyframes anima-animate-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-o-keyframes anima-animate-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@keyframes anima-animate-enter8-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+.anima-animate-enter9 {
+  opacity             : 0;
+  transform           : rotate(25deg);
+  display             : block;
+  -webkit-animation   : anima-animate-enter9-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-animate-enter9-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : anima-animate-enter9-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : anima-animate-enter9-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay  : 0s;
+  animation-delay     : 0s;
+}
+@-webkit-keyframes anima-animate-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-moz-keyframes anima-animate-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@-o-keyframes anima-animate-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+@keyframes anima-animate-enter9-frames {
+  0%
+   
+  {
+  opacity: 0;
+  transform: rotate(25deg);
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+  transform: rotate(0);
+    }
+}
+.login .bg {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -67px;
+  height              : 1241px;
+  width               : 796px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.login .bg .bg1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 222px;
+  height              : 796px;
+  width               : 1241px;
+  position            : absolute;
+  margin              : 0;
+  left                : -223px;
+  -ms-transform       : rotate(90deg); /* IE 9 */
+  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
+  transform           : rotate(90deg);
+}
+.login .group {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 71px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : -4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .header {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 1351px;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .header .home {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 11px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 666px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.login .group .header .search {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 797px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.login .group .header .featurescopy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 950px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.login .group .header .btn-view {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1182px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .header .btn-view .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  box-sizing          : border-box;
+  width               : 169px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 5px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(47, 91, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .header .btn-view .getstartednow {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(46, 91, 233, 1.0);
+  text-align          : center;
+  line-height         : 20.0px;
+}
+.login .group .header .logo {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 30px;
+  width               : 226px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group .header .logo .peamediumprice {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ArialRoundedMTBold", Helvetica, Arial, serif;
+  font-size           : 26.0px;
+  color               : rgba(43, 43, 43, 1.0);
+  text-align          : left;
+  line-height         : 30.0px;
+}
+.login .group .path8 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 61px;
+  height              : 10px;
+  width               : 1450px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 210px;
+  height              : 606px;
+  width               : 536px;
+  position            : absolute;
+  margin              : 0;
+  left                : 452px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .rectangle {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 606px;
+  width               : 536px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.95;
+}
+.login .group7 .group5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 33px;
+  height              : 499px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 43px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .buttonlogin {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 461px;
+  height              : 38px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.login .group7 .group5 .buttonlogin:hover {
+  transform           : scale(1.1);
+}
+.login .group7 .group5 .buttonlogin .button {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 143px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.login .group7 .group5 .buttonlogin .button:hover {
+  transform           : scale(1.1);
+}
+.login .group7 .group5 .buttonlogin .button .rectangle10 {
+  background-color    : rgba(252, 92, 61, 1.0);
+  top                 : 0px;
+  height              : 38px;
+  width               : 143px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .buttonlogin .button .login1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 9px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 47px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  letter-spacing      : 2.0px;
+  line-height         : 18.0px;
+}
+.login .group7 .group5 .form {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 282px;
+  height              : 121px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .password {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 75px;
+  height              : 46px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .password .rectangle34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  box-sizing          : border-box;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(47, 91, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .password .textpassword {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 30px;
+  width               : 187px;
+  position            : absolute;
+  margin              : 0;
+  left                : 79px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.login .group7 .group5 .form .password .textpassword::placeholder {
+  color               : rgba(74, 73, 74, 0.6);
+}
+.login .group7 .group5 .form .password .forgot {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : auto;
+  width               : 40px;
+  position            : absolute;
+  margin              : 0;
+  left                : 373px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(47, 91, 234, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.login .group7 .group5 .form .password .ionioslockedoutlineionicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : auto;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(210, 210, 210, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.login .group7 .group5 .form .password .rectangle8copy {
+  background-color    : rgba(219, 219, 219, 1.0);
+  top                 : 11px;
+  height              : 24px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 340px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .email {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .email .rectangle34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 8px;
+  height              : 47px;
+  box-sizing          : border-box;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(47, 91, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .email .textemailidcard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 30px;
+  width               : 257px;
+  position            : absolute;
+  margin              : 0;
+  left                : 81px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(74, 73, 74, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+.login .group7 .group5 .form .email .textemailidcard::placeholder {
+  color               : rgba(74, 73, 74, 0.6);
+}
+.login .group7 .group5 .form .email .ioniosemailoutlineionicons {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : auto;
+  width               : 22px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Helvetica", Helvetica, Arial, serif;
+  font-size           : 17.0px;
+  color               : rgba(210, 210, 210, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.login .group7 .group5 .form .email .label {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .email .label .rectangle36 {
+  background-color    : rgba(47, 91, 234, 1.0);
+  top                 : 0px;
+  height              : 18px;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .form .email .label .emailidcard {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : 77px;
+  position            : absolute;
+  margin              : 0;
+  left                : 24px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "ArialRoundedMTBold", Helvetica, Arial, serif;
+  font-size           : 9.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.34px;
+  line-height         : 15.0px;
+}
+.login .group7 .group5 .form .email .label .emailidcard .span1 {
+  
+}
+.login .group7 .group5 .form .email .label .emailidcard .span2 {
+  letter-spacing      : 0.3px;
+}
+.login .group7 .group5 .illustration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : 128px;
+  width               : 444px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 122px;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 325px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .rectanglecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 122px;
+  box-sizing          : border-box;
+  width               : 122px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(234, 237, 241, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .company {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 41px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(27, 36, 55, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 81px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .hand {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 53px;
+  height              : 21px;
+  width               : 46px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .hand .rectangle33 {
+  background-color    : rgba(253, 223, 209, 1.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .hand .rectangle33copy {
+  background-color    : rgba(253, 223, 209, 1.0);
+  top                 : 0px;
+  height              : 21px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 44px;
+  width               : 49px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .oval5 {
+  background-color    : rgba(25, 128, 186, 1.0);
+  top                 : 39px;
+  height              : 5px;
+  width               : 29px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .oval5 .mask {
+  background-color    : rgba(25, 128, 186, 1.0);
+  top                 : 0px;
+  height              : 5px;
+  width               : 29px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .rectangle9 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .rectangle9 .rectangle91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 40px;
+  width               : 47px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .rectangle7 {
+  background-color    : rgba(170, 215, 241, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 40px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .rectangle7copy {
+  background-color    : rgba(170, 215, 241, 1.0);
+  top                 : 20px;
+  height              : 5px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .oval4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .oval4copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 4px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .path6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 9px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .uniform .path6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 9px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .neck {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 29px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .neck .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .neck .neckcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -3px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .neck .neckcopy .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .a2copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 27px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .a2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .roundedrectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 0px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 1px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape11copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape11copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .newvectorshapedone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .eye {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .eye1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .ellipse3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .ellipse3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape6copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .shape6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .head .newvectorshapedonecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 7px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .decoration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 9px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .decoration .path109 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 2px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .decoration .path109copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 2px;
+  width               : 35px;
+  position            : absolute;
+  margin              : 0;
+  left                : 19px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .volunteer .illustrationcopy .decoration .path109copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 9px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 122px;
+  width               : 123px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .bgdoctor {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 122px;
+  box-sizing          : border-box;
+  width               : 123px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-radius       : 3px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(47, 91, 234, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 12px;
+  height              : 81px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 26px;
+  height              : 49px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 44px;
+  width               : 51px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .rectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 7px;
+  width               : 17px;
+  position            : absolute;
+  margin              : 0;
+  left                : 17px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 45px;
+  width               : 44px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 45px;
+  width               : 9px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 44px;
+  width               : 8px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 32px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 37px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 13px;
+  height              : 32px;
+  width               : 1px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 36px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .path7copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 38px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 39px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .uniform .crease .oval3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 39px;
+  height              : 5px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 6px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .tshirt {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 46px;
+  width               : 15px;
+  position            : absolute;
+  margin              : 0;
+  left                : 26px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .tshirt .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 46px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .tshirt .rectangle6 {
+  background-color    : rgba(108, 186, 230, 1.0);
+  top                 : 24px;
+  height              : 22px;
+  width               : 14px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .tshirt .oval {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -4px;
+  height              : 13px;
+  width               : 13px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .neck {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .neck .mask {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .neck .neckcopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -3px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .neck .neckcopy .rectangle5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 11px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 32px;
+  width               : 26px;
+  position            : absolute;
+  margin              : 0;
+  left                : 20px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .a2copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 4px;
+  height              : 27px;
+  width               : 19px;
+  position            : absolute;
+  margin              : 0;
+  left                : 4px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .a2line {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 3px;
+  height              : 29px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .roundedrectangle3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : 0px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 12px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .a2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 1px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape11copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 4px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape4 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape11copy1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 15px;
+  height              : 8px;
+  width               : 3px;
+  position            : absolute;
+  margin              : 0;
+  left                : 22px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 23px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .newvectorshapedone {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 3px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 13px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .eye {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .eye1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 16px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .ellipse3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .ellipse3copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 19px;
+  height              : 2px;
+  width               : 2px;
+  position            : absolute;
+  margin              : 0;
+  left                : 7px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape6copy3 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape6copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 15px;
+  width               : 21px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .shape1copy5 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 14px;
+  height              : 6px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .head .newvectorshapedonecopy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : 7px;
+  width               : 6px;
+  position            : absolute;
+  margin              : 0;
+  left                : 10px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.2;
+}
+.login .group7 .group5 .illustration .medical .illustration1 .decoration {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 72px;
+  height              : 9px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .decoration .path109 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : 2px;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .decoration .path109copy {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 2px;
+  width               : 36px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .illustration1 .decoration .path109copy2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 6px;
+  height              : 2px;
+  width               : 5px;
+  position            : absolute;
+  margin              : 0;
+  left                : 8px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.login .group7 .group5 .illustration .medical .government {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 100px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 10.0px;
+  color               : rgba(27, 36, 55, 1.0);
+  text-align          : left;
+  line-height         : 15.0px;
+}
+.login .group7 .group5 .signintopeamediu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 38.0px;
+}
+.login .group7 .group5 .enteryourbelowdet {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 43px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 128px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 17.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : center;
+  line-height         : 26.0px;
+}
+.login .createaccount {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 757px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 662px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(155, 154, 155, 1.0);
+  text-align          : left;
+  line-height         : 18.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}

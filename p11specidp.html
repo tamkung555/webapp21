@@ -5,7 +5,12 @@
         <meta charset="utf-8"/>
         <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
         <link href="./css/p11SpecIdP.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <meta content="Launchpad by Anima" name="author">
+        <script src="./js/search_item.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         </meta>
     </head>
     <body style="margin: 0;
@@ -32,7 +37,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="header">
+                <div class="header" style="width:90%" >
+                <table class="table table-striped">
+                        <tr>
+                            <th style="width:15%">Spec_ID</th>
+                            <th style="width:15%">Material_ID</th>
+                            <th style="width:60%">Description</th>
+                            <th style="width:10%"> </th>
+                          </tr>
+                        <tbody id="search_result">
+                        </tbody>
+                     </table>
+                    </div>
+                <!-- <table class="header">
+                    <tr>
+                        <th class="row4copy">Spec_ID</th>
+                        <th class="row4">Material_ID</th>
+                        <th class="row5">Description</th>
+                        <th> </th>
+                      </tr>
+                    <tbody class="linewhitekeyword" id="search_result">
+                    </tbody>
+                 </table> -->
+                <!-- <div class="header">
                     <div class="row5">
                         <div class="label">
                             <div class="background">
@@ -60,8 +87,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <img anima-src="./img/p-1-1-spec-id---p-separate.png" class="separate" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </div> -->
+                <!-- <img anima-src="./img/p-1-1-spec-id---p-separate.png" class="separate" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/> -->
                 <div class="affichagetri">
                     <div class="background">
                     </div>
@@ -72,11 +99,12 @@
                     <div class="label">
                         Sort By :
                     </div>
-                    <div class="labelcopy">
+                    <div class="labelcopy" id="sortby"></div>
+                    <!-- <div class="labelcopy">
                         Keyword " kVA"
-                    </div>
+                    </div> -->
                 </div>
-                <div class="linegreykeyword">
+                <!-- <div class="linegreykeyword">
                     <div class="tablelinecontainer">
                     </div>
                     <a href="p11materialid.html">
@@ -113,8 +141,8 @@
                             RT-1531-1234
                         </div>
                     </div>
-                </div>
-                <div class="linegreykeywordcopy">
+                </div> -->
+                <!-- <div class="linegreykeywordcopy">
                     <div class="tablelinecontainer">
                     </div>
                     <a href="p11materialid.html">
@@ -309,7 +337,7 @@
                             </div>
                         </div>
                     </a>
-                </div>
+                </div> -->
                 <a href="login.html">
                     <div class="header1">
                         <img anima-src="./img/c-1-1-search---c-dropdown---keyword-rectangle.png" class="rectangle1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>

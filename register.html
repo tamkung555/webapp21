@@ -5,6 +5,17 @@
         <meta charset="utf-8"/>
         <meta content="width=1440, maximum-scale=1.0" name="viewport"/>
         <link href="./css/register.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
+        
+        <style>
+        .map {
+         
+            height: 220px;
+            width: 650px;
+        }
+        </style>
+        <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+        
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -155,7 +166,7 @@
                 <img anima-src="./img/register-calendar-icon@2x.png" class="calendaricon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
             </div>
             <div class="group3">
-                <div class="bitmap">
+                <!-- <div class="bitmap">
                     <img anima-src="./img/register-mask.png" class="mask" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                     <img anima-src="./img/register-bitmap.png" class="bitmap1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                 </div>
@@ -205,8 +216,86 @@
                             <img anima-src="./img/register-body@2x.png" class="body" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                             <img anima-src="./img/register-scarf@2x.png" class="scarf" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
                         </div>
-                    </div>
-                </div>
+                    </div> -->
+                    <div id="lat" type="hidden"></div>
+                    <div id="lon" type="hidden"></div>
+                    <div id="map" class="map">
+                            <script type="text/javascript">
+                                
+                                //var map = new ol.Map({
+                                //    target: 'map',
+                                //    layers: [
+                                //    new ol.layer.Tile({
+                                //        source: new ol.source.OSM()
+                                //    })
+                                //    ],
+                                //    view: new ol.View({
+                                //    center: ol.proj.fromLonLat([100.5577409, 13.8535583]),
+                                //    zoom: 15
+                                //    })
+
+                                //});
+                                const markerSource = new ol.source.Vector();
+
+                                var markerStyle = new ol.style.Style({
+                                image: new ol.style.Icon(/** @type {olx.style.IconOptions} */ ({
+                                    anchor: [0.5, 46],
+                                    anchorXUnits: 'fraction',
+                                    anchorYUnits: 'pixels',
+                                    opacity: 0.75,
+                                    src: 'https://openlayers.org/en/v5.3.0/examples/data/icon.png'
+                                }))
+                                });
+
+                                let map = new ol.Map({
+                                target: 'map',
+                                layers: [
+                                    new ol.layer.Tile({
+                                    source: new ol.source.OSM(),
+                                    }),
+                                    new ol.layer.Vector({
+                                    source: markerSource,
+                                    style: markerStyle,
+                                    }),
+                                ],
+                                view: new ol.View({
+                                    center: ol.proj.fromLonLat([100.5577409, 13.8535583]),
+                                    zoom: 15,
+                                })
+                                });
+
+
+                                function addMarker(lon, lat) {
+                                console.log('lon:', lon);
+                                console.log('lat:', lat);
+
+                                // TODO : Edit code
+                                document.getElementById("lon").value = lat;
+                                document.getElementById('lon').value = lon;
+
+                                var iconFeatures = [];
+
+                                var iconFeature = new ol.Feature({
+                                    geometry: new ol.geom.Point(ol.proj.transform([lon, lat], 'EPSG:4326',
+                                    'EPSG:3857')),
+                                    name: 'Null Island',
+                                    population: 4000,
+                                    rainfall: 500
+                                });
+
+                                markerSource.addFeature(iconFeature);
+                                }
+
+                                map.on('singleclick',function(event){
+                                var lonLat = ol.proj.toLonLat(event.coordinate);
+                                addMarker(lonLat[0], lonLat[1]);
+                                });
+                                
+                            </script>
+
+                            
+                   </div> 
+                <!-- </div> -->
             </div>
             <a href="login.html">
                 <div anima-show-on-scroll="" class="buttonlogin anima-animate-enter17">

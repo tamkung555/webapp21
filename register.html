@@ -8,7 +8,7 @@
   <link href="./css/register.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+  <script src="js/register.js" charset="utf-8" type="text/javascript" ></script>
   <style>
     .map {
 
@@ -61,7 +61,7 @@
         <a href="homepage.html">
           <div class="logo">
             <div class="peamediumprice">
-              PEAmedium price
+              PEAmedium priced
             </div>
           </div>
         </a>
@@ -77,7 +77,7 @@
     <div class="titleinputusername">
       <div class="inputfield">
       </div>
-      <input class="textusermane" name="textUsermane" placeholder="USERMANE" />
+      <input class="textusermane" name="textUsermane" id="textUsermane" placeholder="USERMANE" />
       <div class="username">
         USERNAME
       </div>
@@ -85,7 +85,7 @@
     <div class="titleinputemail">
       <div class="inputfield">
       </div>
-      <input class="textemail" name="textEMail" placeholder="e-mail" />
+      <input class="textemail" name="textEMail" id="textEMail" placeholder="e-mail" />
       <div class="workemailaddress">
         WORK EMAIL ADDRESS
       </div>
@@ -93,7 +93,7 @@
     <div class="titleinputpassword">
       <div class="inputfield">
       </div>
-      <input class="textpassword" name="textPassword" placeholder="Password" />
+      <input class="textpassword" name="textPassword" id="textPassword" placeholder="Password" />
       <div class="password">
         PASSWORD
       </div>
@@ -101,25 +101,31 @@
     <div class="titleinputconfirmpassword">
       <div class="inputfield">
       </div>
-      <input class="textconfirmpassword" name="textConfirmPassword" placeholder="Confirm password" />
+      <input class="textconfirmpassword" name="textConfirmPassword" id="textConfirmPassword" placeholder="Confirm password" />
       <div class="confirmpassword">
         CONFIRM PASSWORD
       </div>
     </div>
-    <!--TODO -->
+    <!-- Method for choose type of vender -->
     <div class="form-group selectCompType">
       <label for="exampleFormControlSelect1">Please select your status:</label>
       <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-        <option value="1">Personal</option>
         <option value="2">Company</option>
+        <option value="1">Personal</option>
       </select>
+      <!--TODO -->
+      <script type="text/javascript">
+      if (document.getElementById("exampleFormControlSelect1").value == 1) {
+        // document.getElementById("CompNameid").style.display = 'hidden';
+      }
+      </script>
+      <!--Logic for render personal or company detail  -->
     </div>
-    <!--Logic for render personal or company detail  -->
 
     <div class="titleinputcopy4">
       <div class="inputfield">
       </div>
-      <input class="textname" name="textName" placeholder="Name" />
+      <input class="textname" name="textName" id="textName" placeholder="Name" />
       <div class="name">
         NAME
       </div>
@@ -127,7 +133,7 @@
     <div class="titleinputcopy5">
       <div class="inputfield">
       </div>
-      <input class="textlastname" name="textLastname" placeholder="Lastname" />
+      <input class="textlastname" name="textLastname" id="textLastname" placeholder="Lastname" />
       <div class="lastname">
         <span class="span1">LASTNAME</span>
       </div>
@@ -136,9 +142,9 @@
       <div class="idcardtaxid">
         Company Name
       </div>
-      <div class="inputfield">
+      <div class="inputfield" id="CompNameid-body">
       </div>
-      <input class="textxxxxxxxxxxxxx" name="CompName" placeholder="Company Name" />
+      <input class="textxxxxxxxxxxxxx" name="CompName" id="CompNameid-input" placeholder="Company Name" />
     </div>
 
     <!-- /////////////////////////////////////////// -->
@@ -150,12 +156,13 @@
         </div>
       </div>
       <div class="inputfield">
-        <input class="textselectCompType" type="text" name="textXxxxxXxxXxXxx=" placeholder="xxxxx-xxx-xx-xxx">
+        <input class="textselectCompType" id="idortax" type="text" name="textXxxxxXxxXxXxx=" placeholder="xxxxx-xxx-xx-xxx">
       </div>
     </div>
     <!--  -->
     <div class="titleinputcopy7">
-      <div class="inputfield">
+      <div class="inputfield" style="color: rgba(50, 60, 71, 1.0);">
+        <input class="phonenumberinput" name="phonenumberinput" id="phonenumberinput" placeholder="Ex: 08xxxxxxxx" />
       </div>
       <img anima-src="./img/register-selector-copy@2x.png" class="selectorcopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
       <div class="a66">
@@ -171,7 +178,7 @@
       </div>
       <div class="inputfield">
       </div>
-      <input class="textxxxxxxxxxxxxx" name="textXxxxxXxxXxXxx" placeholder="xxxxx-xxx-xx-xxx" />
+      <input class="textxxxxxxxxxxxxx" id="egpid" name="textXxxxxXxxXxXxx" placeholder="xxxxx-xxx-xx-xxx" />
     </div>
     <div class="locationcopy2">
       <div class="companyaddress">
@@ -179,7 +186,7 @@
       </div>
       <div class="inputfield">
       </div>
-      <input class="textcompanyname" name="textCompanyName" placeholder="Company Name" />
+      <input class="textcompanyname" id="textcompanyaddress" name="textcompanyaddress" placeholder="Company address" />
     </div>
 
     <div class="group3">
@@ -312,17 +319,15 @@
       </div>
       <!-- </div> -->
     </div>
-    <a href="login.html">
-      <div anima-show-on-scroll="" class="buttonlogin anima-animate-enter17">
-        <div anima-show-on-scroll="" class="button anima-animate-enter16">
-          <div class="rectangle10">
-          </div>
+    <div anima-show-on-scroll="" class="buttonlogin anima-animate-enter17">
+      <div anima-show-on-scroll="" class="button anima-animate-enter16">
+        <button class="rectangle10" onclick="doRegister()" href="">
           <div class="login">
             SIGN UP
           </div>
-        </div>
+        </button>
       </div>
-    </a>
+    </div>
   </div>
   <!-- Scripts -->
   <script>

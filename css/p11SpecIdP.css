@@ -496,7 +496,9 @@ div {
   transform           : rotate(0deg);
 }
 .p11specidp .linegreykeyword .buttonnext {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(47, 91, 234, 1.0);
+  cursor              : pointer;
+  border-radius       : 2px;
   top                 : 11px;
   height              : 30px;
   width               : 101px;
@@ -727,7 +729,9 @@ div {
   transform           : rotate(0deg);
 }
 .p11specidp .linewhitekeyword .buttonnext {
-  background-color    : rgba(255,255,255,1.0);
+  background-color    : rgba(47, 91, 234, 1.0);
+  cursor              : pointer;
+  border-radius       : 2px;
   top                 : 11px;
   height              : 30px;
   width               : 101px;
@@ -1151,6 +1155,15 @@ div {
   -o-animation-delay  : 0;
   animation-delay     : 0;
 }
+.p11specidp .linegreykeyword .buttonnext .button:hover {
+  background-color: rgba(47, 91, 234, 1.0);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.p11specidp .linewhitekeyword .buttonnext .button:hover {
+  background-color: rgba(47, 91, 234, 1.0);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 @-webkit-keyframes anima-reveal {
   0%
    

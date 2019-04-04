@@ -1,4 +1,7 @@
 function doSearch(){
+    // loader
+    document.getElementById("loader").style.display = "block";
+
     jQuery.ajax({
         url: "https://hookb.in/2qYlbDYPOghDYDK6RK91",
         type: "POST",
@@ -19,6 +22,8 @@ function doSearch(){
         console.log("HTTP Request Succeeded: " + jqXHR.status);
         console.log(data); //Return Data
         if (jqXHR.status == 200) {
+            window.localStorage.setItem('datasearch',JSON.stringify(data));
+            document.getElementById("loader").style.display = "none";
             //window.location = "p11searchp.html"
             //window.location.replace( "/p11searchp.html" )
             console.log("Query")

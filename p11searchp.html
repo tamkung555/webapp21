@@ -7,7 +7,7 @@
         <link href="./css/p11SearchP.css" rel="stylesheet" type="text/css"/>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+        <script src="./js/validate.js"></script>
         <meta content="Launchpad by Anima" name="author">
         </meta>
     </head>
@@ -59,9 +59,7 @@
                 <div class="group4copy">
                     <div class="group5copy3">
                         <!-- <img anima-src="./img/c-1-1-search---c-textfield.png" class="textfield" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/> -->
-                        <input class="textquery" id="condition_str" name="condition_str" placeholder="Type Condition"/ 
-    
-                        >
+                        <input class="textquery" id="condition_str" name="condition_str" onkeypress="f_validate()" placeholder="Type Condition"/ >
                     </div>
                     <div class="search" type="button">
                         SEARCH

@@ -472,7 +472,7 @@ div {
   top                 : 213px;
   height              : 50px;
   width               : 1360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 40px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -698,20 +698,20 @@ div {
   letter-spacing      : 0.42px;
   line-height         : 14.0px;
 }
-.p11specidp .linegreykeywordcopy {
+.p11specidp .linewhitekeyword {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 311px;
+  top                 : 213px;
   height              : 50px;
   width               : 1360px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 40px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .tablelinecontainer {
-  background-color    : rgba(248, 248, 248, 1.0);
+.p11specidp .linewhitekeyword .tablelinecontainer {
+  background-color    : rgba(255, 255, 255, 0);
   top                 : 1px;
   height              : 49px;
   box-sizing          : border-box;
@@ -726,8 +726,8 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .buttonnext {
-  background-color    : rgba(255,255,255,0.0);
+.p11specidp .linewhitekeyword .buttonnext {
+  background-color    : rgba(255,255,255,1.0);
   top                 : 11px;
   height              : 30px;
   width               : 101px;
@@ -738,7 +738,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .buttonnext .rectangle4 {
+.p11specidp .linewhitekeyword .buttonnext .rectangle4 {
   background-color    : rgba(47, 91, 234, 1.0);
   top                 : 0px;
   height              : 30px;
@@ -751,7 +751,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .buttonnext .next {
+.p11specidp .linewhitekeyword .buttonnext .next {
   background-color    : rgba(255,255,255,0.0);
   top                 : 7px;
   height              : auto;
@@ -768,7 +768,7 @@ div {
   text-align          : center;
   line-height         : 16.0px;
 }
-.p11specidp .linegreykeywordcopy .tablecelcopy {
+.p11specidp .linewhitekeyword .tablecelcopy {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 50px;
@@ -781,7 +781,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .tablecelcopy .background {
+.p11specidp .linewhitekeyword .tablecelcopy .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 50px;
@@ -793,7 +793,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .tablecelcopy .tablecelcopy1 {
+.p11specidp .linewhitekeyword .tablecelcopy .tablecelcopy1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : -1px;
   height              : 50px;
@@ -805,7 +805,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .tablecelcopy .tablecelcopy1 .rectangle9 {
+.p11specidp .linewhitekeyword .tablecelcopy .tablecelcopy1 .rectangle9 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 44px;
@@ -817,7 +817,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .tablecelcopy .tablecelcopy1 .label {
+.p11specidp .linewhitekeyword .tablecelcopy .tablecelcopy1 .label {
   background-color    : rgba(255,255,255,0.0);
   top                 : 14px;
   height              : auto;
@@ -837,7 +837,7 @@ div {
   letter-spacing      : 0.68px;
   line-height         : 14.0px;
 }
-.p11specidp .linegreykeywordcopy .statutencours {
+.p11specidp .linewhitekeyword .statutencours {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 26px;
@@ -849,366 +849,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linegreykeywordcopy .statutencours .fond {
-  background-color    : rgba(183, 232, 134, 1.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.p11specidp .linegreykeywordcopy .statutencours .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.42px;
-  line-height         : 14.0px;
-}
-.p11specidp .linegreykeywordcopy .statutencours1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy .statutencours1 .fond {
-  background-color    : rgba(183, 232, 134, 1.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.p11specidp .linegreykeywordcopy .statutencours1 .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.42px;
-  line-height         : 14.0px;
-}
-.p11specidp .linegreykeywordcopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 411px;
-  height              : 50px;
-  width               : 1360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .tablelinecontainer {
-  background-color    : rgba(248, 248, 248, 1.0);
-  top                 : 1px;
-  height              : 49px;
-  box-sizing          : border-box;
-  width               : 1360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(255, 255, 255, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .buttonnext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 11px;
-  height              : 30px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1219px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .buttonnext .rectangle4 {
-  background-color    : rgba(47, 91, 234, 1.0);
-  top                 : 0px;
-  height              : 30px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .buttonnext .next {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "ArialRoundedMTBold", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.p11specidp .linegreykeywordcopy2 .tablecelcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 459px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .tablecelcopy .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .tablecelcopy .tablecelcopy1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .tablecelcopy .tablecelcopy1 .rectangle9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 204px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .tablecelcopy .tablecelcopy1 .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : auto;
-  width               : 682px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.68px;
-  line-height         : 14.0px;
-}
-.p11specidp .linegreykeywordcopy2 .statutencours {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 247px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .statutencours .fond {
-  background-color    : rgba(183, 232, 134, 1.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.p11specidp .linegreykeywordcopy2 .statutencours .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.42px;
-  line-height         : 14.0px;
-}
-.p11specidp .linegreykeywordcopy2 .statutencours1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 35px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linegreykeywordcopy2 .statutencours1 .fond {
-  background-color    : rgba(183, 232, 134, 1.0);
-  top                 : 0px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.3;
-}
-.p11specidp .linegreykeywordcopy2 .statutencours1 .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6px;
-  height              : auto;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : -0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  letter-spacing      : 0.42px;
-  line-height         : 14.0px;
-}
-.p11specidp .linewhitekeywordcopy2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 465px;
-  height              : 50px;
-  width               : 1360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 40px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablelinegrey {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 1360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablelinecontainer {
-  background-color    : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 1360px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .satut {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 26px;
-  width               : 125px;
-  position            : absolute;
-  margin              : 0;
-  left                : 246px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .satut .fond {
+.p11specidp .linewhitekeyword .statutencours .fond {
   background-color    : rgba(139, 187, 85, 1.0);
   top                 : 0px;
   height              : 26px;
@@ -1220,10 +861,10 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.5;
+  opacity             : 0.3;
 }
-.p11specidp .linewhitekeywordcopy2 .satut .label {
-  background-color    : rgba(255,255,255,0.0);
+.p11specidp .linewhitekeyword .statutencours .label {
+  background-color    : r rgba(255,255,255,0.0);
   top                 : 6px;
   height              : auto;
   width               : 125px;
@@ -1242,7 +883,7 @@ div {
   letter-spacing      : 0.42px;
   line-height         : 14.0px;
 }
-.p11specidp .linewhitekeywordcopy2 .satut1 {
+.p11specidp .linewhitekeyword .statutencours1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 12px;
   height              : 26px;
@@ -1254,7 +895,7 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11specidp .linewhitekeywordcopy2 .satut1 .fond {
+.p11specidp .linewhitekeyword .statutencours1 .fond {
   background-color    : rgba(139, 187, 85, 1.0);
   top                 : 0px;
   height              : 26px;
@@ -1266,9 +907,9 @@ div {
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
-  opacity             : 0.5;
+  opacity             : 0.3;
 }
-.p11specidp .linewhitekeywordcopy2 .satut1 .label {
+.p11specidp .linewhitekeyword .statutencours1 .label {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : auto;
@@ -1287,117 +928,6 @@ div {
   text-align          : center;
   letter-spacing      : 0.42px;
   line-height         : 14.0px;
-}
-.p11specidp .linewhitekeywordcopy2 .tablecelcopy {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 457px;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablecelcopy .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablecelcopy .tablecelcopy1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -1px;
-  height              : 50px;
-  width               : 700px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablecelcopy .tablecelcopy1 .rectangle9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 44px;
-  width               : 204px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .tablecelcopy .tablecelcopy1 .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 14px;
-  height              : auto;
-  width               : 682px;
-  position            : absolute;
-  margin              : 0;
-  left                : 20px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 12.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.68px;
-  line-height         : 14.0px;
-}
-.p11specidp .linewhitekeywordcopy2 .buttonnext {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 12px;
-  height              : 30px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 1217px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .buttonnext .rectangle4 {
-  background-color    : rgba(47, 91, 234, 1.0);
-  top                 : 0px;
-  height              : 30px;
-  width               : 101px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-}
-.p11specidp .linewhitekeywordcopy2 .buttonnext .next {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 7px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 31px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "ArialRoundedMTBold", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
 }
 .p11specidp .header1 {
   background-color    : rgba(255,255,255,0.0);

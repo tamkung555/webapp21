@@ -26,6 +26,7 @@ fetch('https://api.myjson.com/bins/ux9zk')
             let background = '<div class=\"background\"></div>';
             let fond = '<div class=\"fond\"></div>';
             let lable = '<div class=\"label\">';
+            let lable_mat = '<div class=\"label\" id=\"material_ID\" value=\"';
             let div_end = '</div>';
 
             for (i in user.result){
@@ -36,9 +37,11 @@ fetch('https://api.myjson.com/bins/ux9zk')
                     html_result += white_table + tablecontainer;
                 }
                 html_result += statutencours1 + fond + lable + user.result[i].spec_ID + div_end + div_end;
-                html_result += statutencours + fond + lable + user.result[i].material_ID + div_end + div_end;
+                html_result += statutencours + fond + lable_mat + user.result[i].material_ID + '\">' + user.result[i].material_ID + div_end + div_end;
                 html_result += tablecelcopy + background + tablecelcopy1 + lable + user.result[i].description + div_end + div_end + div_end;
-                html_result += '<a href=\"p11materialid.html\"><div class=\"buttonnext\"><div class=\"rectangle4\"></div><div class=\"next\">NEXT</div></div></a>' + div_end;
+                html_result += '<button type=\"button\" class=\"buttonnext button:hover\" onclick=\"doSearchpage()\"><div class=\"next\">NEXT</div></botton>' + div_end;
+                // html_result += '<div class=\"buttonnext\"><div class=\"rectangle4\" type=\"button\" onclick=\"doSearchpage()\"></div><a style="cursor: pointer;"><div class=\"next\">NEXT</div></div></a>' + div_end;
+                // html_result += '<a href=\"p11materialid.html\"><div class=\"buttonnext\"><div class=\"rectangle4\" type=\"button\" onclick=\"doSearchpage()\"></div><div class=\"next:hover\">NEXT</div></div></a>' + div_end;
             }
             document.getElementById('search_result').innerHTML = html_result;
         });

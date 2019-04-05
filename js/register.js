@@ -1,4 +1,4 @@
-function doRegister() {
+function doRegister(){
   // Name
   if (document.getElementById("textUsermane").value == "") {
     alert("please enter the username.");
@@ -31,17 +31,20 @@ function doRegister() {
     document.getElementById("textConfirmPassword").value.textContent = "";
 
   var vender_status = document.getElementById("exampleFormControlSelect1").value;
-  var verder_name;
+  console.log(vender_status)
+  // var vender_name;
 
-  if (vender_status == 1) {
-    document.getElementById("CompNameid-input").value = "personal-vender";
-    verder_name = document.getElementById("CompNameid-input").value;
-    vender_status = document.getElementById("exampleFormControlSelect1").value;
-    return;
-  } else
-    vender_status = document.getElementById("exampleFormControlSelect1").value;
-    verder_name = document.getElementById("CompNameid-input").value;
-
+  // if (vender_status == ) {
+  //   // document.getElementById("CompNameid-input").value = "personal-vender";
+  //   // vender_name = document.getElementById("CompNameid-input").value;
+  //   vender_name = "PER";
+  //   vender_status = document.getElementById("exampleFormControlSelect1").value;
+  //   return;
+  // } else
+  //   // vender_status = document.getElementById("exampleFormControlSelect1").value;
+  //   // vender_name = document.getElementById("CompNameid-input").value;
+  //   vender_name = "LGE";
+    
 
   if (document.getElementById("textName").value == "") {
     alert("please enter name.");
@@ -74,10 +77,11 @@ function doRegister() {
     document.getElementById("phonenumberinput").value.textContent = "";
 
   if (document.getElementById("egpid").value == "") {
-    alert("please enter your EGP id.");
-    return;
-  } else
+    // alert("please enter your EGP id.");
+    // return;
     document.getElementById("egpid").value.textContent = "";
+  } else
+     document.getElementById("egpid").value.textContent = "";
 
   if (document.getElementById("textcompanyaddress").value == "") {
     alert("please enter your address.");
@@ -86,52 +90,62 @@ function doRegister() {
     document.getElementById("textcompanyaddress").value.textContent = "";
 
   jQuery.ajax({
+  
     // url: "https://peahub21.azurewebsites.net/api/v2.0/register/",
-      url: "https://hookb.in/8P6lDnbmGdCXgXYxrYde",
+      url: "http://127.0.0.1:8000/api/v2.0/signup/",
       type: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      contentType: "application/json",
+      
       data: JSON.stringify({
-        "User_ID"           : document.getElementById("textUsermane").value,
-        "password"          : document.getElementById("textPassword").value,
-        "confirmpassword"   : document.getElementById("textConfirmPassword").value,
-        "email"             : document.getElementById("textEMail").value,
-        "Comp_Type"         : vender_status,
-        "Name": document.getElementById("textName").value,
-        "Lastname": document.getElementById("textLastname").value,
-        "Comp_address": document.getElementById("").value,
-        "Tax_ID": document.getElementById("idortax").value,
-        "Mobile": document.getElementById("phonenumberinput").value,
-        "eGP_ID": document.getElementById("egpid").value,
-        "Address": document.getElementById("textcompanyaddress").value,
-        "long": document.getElementById("long").value,
-        "lat": document.getElementById("lat").value,
+        "username" : document.getElementById("textUsermane").value,
+        "password" : document.getElementById("textPassword").value,
+        "confirmation_password": document.getElementById("textConfirmPassword").value,
+        "email" : document.getElementById("textEMail").value,
+        "comp_type" : document.getElementById("exampleFormControlSelect1").value,
+        "firstname": document.getElementById("textName").value,
+        "lastname": document.getElementById("textLastname").value,
+        "comp_address": document.getElementById("CompNameid-input").value,
+        "tax_id": document.getElementById("idortax").value,
+        "mobile": document.getElementById("phonenumberinput").value,
+        // "egp_id": document.getElementById("egpid").value,
+        "address": document.getElementById("textcompanyaddress").value,
+        // "location_lon": document.getElementById("lon").value,
+        // "location_lat": document.getElementById("lat").value,
+        "location_lon": "14.567",
+        "location_lat": "33.567",
+        "comp_url" : "-",
+        "comp_detail" : "-",
+        "comp_tel" : "-",
+        "comp_name" : "-"
 
       })
+
     })
+    // console.log(data)
+
     .done(function(data, textStatus, jqXHR) {
       console.log("HTTP Request Succeeded: " + jqXHR.status);
       console.log(data); //Return Data
       if (jqXHR.status == 200) {
 
-        // TODO: Check condition Comp_type
-        // if Comp_type == 1 || Comp_type == 2
-        //window.location = "p11searchp.html"
-        // else if (Comp_type == 3) {
-        //window.location = "p11searchp.html"
-        // }
+      //   // TODO: Check condition Comp_type
+      //   // if Comp_type == 1 || Comp_type == 2
+      //   //window.location = "p11searchp.html"
+      //   // else if (Comp_type == 3) {
+      //   //window.location = "p11searchp.html"
+      //   // }
 
-        //window.location = "p11searchp.html"
-        window.location.replace("/p11searchp.html")
+      //   //window.location = "p11searchp.html"
+      window.location.replace("/login.html")
       };
     })
-    .fail(function(jqXHR, textStatus, errorThrown) {
-      console.log("HTTP Request Failed");
+  .fail(function(jqXHR, textStatus, errorThrown) {
+    console.log("HTTP Request Failed");
 
-    })
-    .always(function() {
-      /* ... */
-    });
+  })
+  .always(function() {
+    /* ... */
+  });
 }

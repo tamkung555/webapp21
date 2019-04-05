@@ -18,13 +18,14 @@ function f_validate(val){ // เช็คตัวเลข
 function f_senddata(){
     var search_by = document.getElementById("dropdown").value;
     var search_text = document.getElementById("condition_str").value;
+    console.log(search_by);
     
     if (search_text == "") {
         alert("โปรดตรวจสอบข้อมูลการค้นหาอีกครั้ง");
         document.getElementById("condition_str").value.textContent = "";
         return;
     } else {
-        var queryString = "?para1=" + search_by + "&para2=" + search_text;
+        var queryString = "?" + search_by + "&para" + search_text;
         window.location.href = "p11specidp.html" + queryString;
         console.log(queryString);
 

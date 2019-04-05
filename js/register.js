@@ -34,13 +34,15 @@ function doRegister() {
   var verder_name;
 
   if (vender_status == 1) {
+    console.log(vender_status);
+    document.getElementById("CompNameid-input").style.display = "none";
     document.getElementById("CompNameid-input").value = "personal-vender";
     verder_name = document.getElementById("CompNameid-input").value;
     vender_status = document.getElementById("exampleFormControlSelect1").value;
     return;
   } else
     vender_status = document.getElementById("exampleFormControlSelect1").value;
-    verder_name = document.getElementById("CompNameid-input").value;
+  verder_name = document.getElementById("CompNameid-input").value;
 
 
   if (document.getElementById("textName").value == "") {
@@ -86,7 +88,7 @@ function doRegister() {
     document.getElementById("textcompanyaddress").value.textContent = "";
 
   jQuery.ajax({
-    // url: "https://peahub21.azurewebsites.net/api/v2.0/register/",
+      // url: "https://peahub21.azurewebsites.net/api/v2.0/register/",
       url: "https://hookb.in/8P6lDnbmGdCXgXYxrYde",
       type: "POST",
       headers: {
@@ -94,19 +96,19 @@ function doRegister() {
       },
       contentType: "application/json",
       data: JSON.stringify({
-        "User_ID"           : document.getElementById("textUsermane").value,
-        "password"          : document.getElementById("textPassword").value,
-        "confirmpassword"   : document.getElementById("textConfirmPassword").value,
-        "email"             : document.getElementById("textEMail").value,
-        "Comp_Type"         : vender_status,
+        "User_ID": document.getElementById("textUsermane").value,
+        "password": document.getElementById("textPassword").value,
+        "confirmpassword": document.getElementById("textConfirmPassword").value,
+        "email": document.getElementById("textEMail").value,
+        "Comp_Type": vender_status,
         "Name": document.getElementById("textName").value,
         "Lastname": document.getElementById("textLastname").value,
-        "Comp_address": document.getElementById("").value,
+        "Comp_address": document.getElementById("textcompanyaddress").value,
         "Tax_ID": document.getElementById("idortax").value,
         "Mobile": document.getElementById("phonenumberinput").value,
         "eGP_ID": document.getElementById("egpid").value,
         "Address": document.getElementById("textcompanyaddress").value,
-        "long": document.getElementById("long").value,
+        "lon": document.getElementById("lon").value,
         "lat": document.getElementById("lat").value,
 
       })
@@ -129,9 +131,21 @@ function doRegister() {
     })
     .fail(function(jqXHR, textStatus, errorThrown) {
       console.log("HTTP Request Failed");
-
+  
     })
     .always(function() {
       /* ... */
     });
+}
+
+function selectFunction() {
+  var x = document.getElementById("exampleFormControlSelect1").value;
+  if (x == "Personal") {
+    document.getElementById("textcompanyaddress").disabled = true;
+    document.getElementById("CompNameid-input").style.visibility = "hidden";
+  } else {
+    document.getElementById("textcompanyaddress").disabled = false;
+    document.getElementById("CompNameid-input").style.visibility = "visible";
+    return;
+  }
 }

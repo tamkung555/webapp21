@@ -8,6 +8,7 @@
   <link href="./css/register.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/css/ol.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/register.js" charset="utf-8" type="text/javascript" ></script>
   <style>
     .map {
@@ -109,17 +110,10 @@
     <!-- Method for choose type of vender -->
     <div class="form-group selectCompType">
       <label for="exampleFormControlSelect1">Please select your status:</label>
-      <select class="form-control form-control-sm" id="exampleFormControlSelect1">
-        <option value="2">Company</option>
-        <option value="1">Personal</option>
+      <select class="form-control form-control-sm" id="exampleFormControlSelect1" onchange="selectFunction()">
+        <option value="Company">Company</option>
+        <option value="Personal">Personal</option>
       </select>
-      <!--TODO -->
-      <script type="text/javascript">
-      if (document.getElementById("exampleFormControlSelect1").value == 1) {
-        // document.getElementById("CompNameid").style.display = 'hidden';
-      }
-      </script>
-      <!--Logic for render personal or company detail  -->
     </div>
 
     <div class="titleinputcopy4">
@@ -146,9 +140,6 @@
       </div>
       <input class="textxxxxxxxxxxxxx" name="CompName" id="CompNameid-input" placeholder="Company Name" />
     </div>
-
-    <!-- /////////////////////////////////////////// -->
-
     <div class="group4">
       <div class="idcardtaxid">
         <div class="idcardtaxtext">
@@ -286,7 +277,7 @@
               zoom: 15,
             })
           });
-          
+
           function addMarker(lon, lat) {
             console.log('lon:', lon);
             console.log('lat:', lat);

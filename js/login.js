@@ -14,11 +14,11 @@ function doLogin() {
     document.getElementById("password").value.textContent = "";
 
   jQuery.ajax({
-      url: "https://hookb.in/8P6P0JqN8RCXgXYxrY8E",
+      // url: "https://peahub21.azurewebsites.net/api/v2.0/login/",
+      url: "https://hookb.in/8P6lDnbmGdCXgXYxrYde",
       type: "POST",
       headers: {
         "Content-Type": "application/json",
-
       },
       contentType: "application/json",
       data: JSON.stringify({
@@ -27,23 +27,26 @@ function doLogin() {
       })
     })
     .done(function(data, textStatus, jqXHR) {
+      alert("Login Success. Welcome to PEA Medium Prices.");
       console.log("HTTP Request Succeeded: " + jqXHR.status);
       console.log(data); //Return Data
       if (jqXHR.status == 200) {
 
-        // TODO: Check condition Comp_type
-        // if Comp_type == 1 || Comp_type == 2
+        if (jqXHR.type == 1 || jqXHR.type == 2) {
+          location.replace("c11searchc.html")
+        }
+        else if (jqXHR.type == 3) {
+          location.replace("p11searchp.html")
+        }
+        else
+        location.replace("login.html")
         //window.location = "p11searchp.html"
-        // else if (Comp_type == 3) {
-        //window.location = "p11searchp.html"
-        // }
-
-        //window.location = "p11searchp.html"
-        window.location.replace("/p11searchp.html")
-      };
+        // location.replace("p11searchp.html")
+      }
     })
     .fail(function(jqXHR, textStatus, errorThrown) {
       console.log("HTTP Request Failed");
+      alert("HTTP Request Failed");
 
     })
     .always(function() {

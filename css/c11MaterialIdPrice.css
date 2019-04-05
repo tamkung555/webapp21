@@ -713,7 +713,7 @@ div {
 .c11materialidprice .group5 .text .group12 .textfield {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 423px;
+  height              : 300px;
   width               : 648px;
   position            : absolute;
   margin              : 0;
@@ -1445,7 +1445,7 @@ div {
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 70px;
+  left                : 60px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);

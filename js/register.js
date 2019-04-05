@@ -44,7 +44,7 @@ function doRegister(){
   //   // vender_status = document.getElementById("exampleFormControlSelect1").value;
   //   // vender_name = document.getElementById("CompNameid-input").value;
   //   vender_name = "LGE";
-    
+   
 
   if (document.getElementById("textName").value == "") {
     alert("please enter name.");
@@ -93,12 +93,14 @@ function doRegister(){
   
     // url: "https://peahub21.azurewebsites.net/api/v2.0/register/",
       url: "http://127.0.0.1:8000/api/v2.0/signup/",
+
       type: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       
       data: JSON.stringify({
+
         "username" : document.getElementById("textUsermane").value,
         "password" : document.getElementById("textPassword").value,
         "confirmation_password": document.getElementById("textConfirmPassword").value,
@@ -148,4 +150,17 @@ function doRegister(){
   .always(function() {
     /* ... */
   });
+
+}
+
+function selectFunction() {
+  var x = document.getElementById("exampleFormControlSelect1").value;
+  if (x == "Personal") {
+    document.getElementById("textcompanyaddress").disabled = true;
+    document.getElementById("CompNameid-input").style.visibility = "hidden";
+  } else {
+    document.getElementById("textcompanyaddress").disabled = false;
+    document.getElementById("CompNameid-input").style.visibility = "visible";
+    return;
+  }
 }

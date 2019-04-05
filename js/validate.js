@@ -22,7 +22,7 @@ function f_senddata(){
             alert("โปรดตรวจสอบ การค้นหาต้องมีจำนวน 10 ตัว");
             return;
         }
-    }else if (document.getElementById("dropdown").value == "mat_id"){
+    }else if (document.getElementById("dropdown").value == "mat_no"){
         if (search_text.length == 10){
             
         }else {
@@ -36,7 +36,7 @@ function f_senddata(){
         document.getElementById("condition_str").value.textContent = "";
         return;
     } else {
-        var queryString = "?para1=" + search_by + "&para2=" + search_text;
+        var queryString = "?" + search_by + "&para" + search_text;
         window.location.href = "p11specidp.html" + queryString;
         console.log(queryString);
       }

@@ -5,7 +5,7 @@ function f_validate(val){ // เช็คตัวเลข
             event.returnValue = false;
             val.focus();
             }
-    } else if (document.getElementById("dropdown").value == "mat_id"){
+    } else if (document.getElementById("dropdown").value == "mat_no"){
         if (event.keyCode < 45 || event.keyCode > 57) {
             alert("กรุณาป้อนตัวเลขค่ะ55");
             event.returnValue = false;

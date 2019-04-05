@@ -5,7 +5,9 @@ function f_validate(val){ // เช็คตัวเลข
             event.returnValue = false;
             val.focus();
             }
+
     } else{
+
             val.focus();
     }
        

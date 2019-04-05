@@ -4,7 +4,7 @@
                           font-family: "ArialRoundedMTBold";
                           src: url('../fonts/Arial Rounded Bold.ttf') format("truetype");
                         }
-                        
+
 .c11materialidprice {
   width               : 100%;
   min-width           : 1440px;
@@ -50,15 +50,15 @@ div {
 }
 @-webkit-keyframes anima-animate-enter-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -66,15 +66,15 @@ div {
 }
 @-moz-keyframes anima-animate-enter-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -82,15 +82,15 @@ div {
 }
 @-o-keyframes anima-animate-enter-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -98,15 +98,15 @@ div {
 }
 @keyframes anima-animate-enter-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -1332,12 +1332,12 @@ div {
 }
 .c11materialidprice .group5 .text .uploader .dragfilesheretou {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 127px;
+  top                 : 100px;
   height              : auto;
-  width               : auto;
+  width               : 329px;
   position            : absolute;
   margin              : 0;
-  left                : 63px;
+  left                : 0px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -1350,18 +1350,18 @@ div {
   line-height         : 19.0px;
 }
 .c11materialidprice .group5 .text .uploader .dragfilesheretou .span1 {
-  
+
 }
 .c11materialidprice .group5 .text .uploader .dragfilesheretou .span2 {
   color               : rgba(47, 91, 234, 1.0);
   text-decoration     : underline;
 }
 .c11materialidprice .group5 .text .uploader .dragfilesheretou .span3 {
-  
+
 }
 .c11materialidprice .group5 .text .uploader .uploadicon {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 34px;
+  top                 : 8px;
   height              : 86px;
   width               : 105px;
   position            : absolute;
@@ -1480,56 +1480,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

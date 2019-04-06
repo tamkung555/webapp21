@@ -4,7 +4,7 @@
                           font-family: "ArialRoundedMTBold";
                           src: url('../fonts/Arial Rounded Bold.ttf') format("truetype");
                         }
-                        
+
 .register {
   width               : 100%;
   min-width           : 1440px;
@@ -48,49 +48,49 @@ div {
 }
 @-webkit-keyframes anima-animate-enter16-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @-moz-keyframes anima-animate-enter16-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @-o-keyframes anima-animate-enter16-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @keyframes anima-animate-enter16-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
@@ -107,49 +107,49 @@ div {
 }
 @-webkit-keyframes anima-animate-enter17-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @-moz-keyframes anima-animate-enter17-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @-o-keyframes anima-animate-enter17-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
 @keyframes anima-animate-enter17-frames {
   0%
-   
+
   {
     }
-  
-    
+
+
   100%
-   
+
   {
     }
 }
@@ -356,7 +356,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 6px;
   height              : 30px;
-  width               : 226px;
+  width               : 300px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -398,9 +398,9 @@ div {
   top                 : 117px;
   height              : auto;
   width               : auto;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 750px;
+  left                : 103px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -414,12 +414,12 @@ div {
 }
 .register .enteryourbelowdet {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 172px;
+  top                 : 125px;
   height              : auto;
   width               : auto;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
-  left                : 750px;
+  left                : -16px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -433,10 +433,10 @@ div {
 }
 .register .titleinputusername {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 216px;
+  top                 : 150px;
   height              : 71px;
   width               : 298px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 749px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -509,10 +509,10 @@ div {
 }
 .register .titleinputemail {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 215px;
+  top                 : 78px;
   height              : 71px;
   width               : 298px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 1098px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -585,10 +585,10 @@ div {
 }
 .register .titleinputpassword {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
+  top                 : 87px;
   height              : 71px;
   width               : 298px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 749px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -661,10 +661,10 @@ div {
 }
 .register .titleinputconfirmpassword {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 295px;
+  top                 : 16px;
   height              : 71px;
   width               : 298px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 1098px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -737,7 +737,7 @@ div {
 }
 .register .location {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 571px;
+  top                 : 530px;
   height              : 59px;
   width               : 421px;
   position            : absolute;
@@ -772,7 +772,7 @@ div {
   top                 : 22px;
   height              : 37px;
   box-sizing          : border-box;
-  width               : 421px;
+  width               : 650px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -788,7 +788,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 23px;
   height              : 30px;
-  width               : 102px;
+  width               : 600px;
   position            : absolute;
   margin              : 0;
   left                : 25px;
@@ -804,15 +804,17 @@ div {
   text-align          : left;
   line-height         : 28.0px;
   border              : 0;
+  border-style        : none;
   resize              : none;
   padding             : 0;
 }
 .register .location .textxxxxxxxxxxxxx::placeholder {
   color               : rgba(50, 60, 71, 0.6);
+  border-style        : none;
 }
 .register .locationcopy3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 652px;
+  top                 : 660px;
   height              : 59px;
   width               : 310px;
   position            : absolute;
@@ -847,7 +849,7 @@ div {
   top                 : 21px;
   height              : 38px;
   box-sizing          : border-box;
-  width               : 310px;
+  width               : 295px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -879,6 +881,7 @@ div {
   text-align          : left;
   line-height         : 28.0px;
   border              : 0;
+  border-style        : none;
   resize              : none;
   padding             : 0;
 }
@@ -922,7 +925,7 @@ div {
   top                 : 22px;
   height              : 37px;
   box-sizing          : border-box;
-  width               : 421px;
+  width               : 650px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -962,10 +965,10 @@ div {
 }
 .register .titleinputcopy4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 409px;
+  top                 : 20px;
   height              : 62px;
   width               : 298px;
-  position            : absolute;
+  position            : relative;
   margin              : 0;
   left                : 746px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -1038,7 +1041,7 @@ div {
 }
 .register .titleinputcopy5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 410px;
+  top                 : 459px;
   height              : 60px;
   width               : 298px;
   position            : absolute;
@@ -1113,14 +1116,14 @@ div {
   line-height         : 20.0px;
 }
 .register .titleinputcopy5 .lastname .span1 {
-  
+
 }
 .register .titleinputcopy5 .lastname .span2 {
-  
+
 }
 .register .titleinputcopy7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 488px;
+  top                 : 595px;
   height              : 62px;
   width               : 298px;
   position            : absolute;
@@ -1202,7 +1205,7 @@ div {
 }
 .register .group4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 492px;
+  top                 : 600px;
   height              : 57px;
   width               : 295px;
   position            : absolute;
@@ -1815,57 +1818,143 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
+}
+
+.selectCompType {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 25px;
+  height              : 71px;
+  width               : 298px;
+  position            : relative;
+  margin              : 0;
+  left                : 749px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+
+.textselectCompType {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 30px;
+  width               : 271px;
+  position            : absolute;
+  margin              : 0;
+  left                : 28px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.3;
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : -0.16px;
+  line-height         : 27.0px;
+  border              : 0;
+  resize              : none;
+  padding             : 0;
+}
+
+.group4 .idcardtaxid .idcardtaxtext {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0.5px;
+  height              : auto;
+  width               : 120px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  color               : rgba(50, 60, 71, 1.0);
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+}
+
+.register .titleinputcopy7 .inputfield .phonenumberinput {
+  background-color    : rgba(255,255,255,0.0);
+  color               : rgba(50, 60, 71, 0.4);
+  top                 : 5px;
+  height              : auto;
+  width               : 180px;
+  position            : absolute;
+  margin              : 0px;
+  left                : 75px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 500;
+  font-style          : normal;
+  font-size           : 13.0px;
+  text-align          : left;
+  letter-spacing      : 1.0px;
+  line-height         : 20.0px;
+  border              : 0;
+}
+
+.register .titleinputcopy7 .inputfield .phonenumberinput::placeholder {
+  color               : rgba(50, 60, 71, 0.2);
+  visibility          : 0.2;
 }

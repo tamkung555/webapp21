@@ -181,7 +181,8 @@ div {
   line-height         : 42.0px;
 }
 .p11searchp .buttonnext {
-  background-color    : rgba(255,255,255,0.0);
+  background-color    : rgba(47, 91, 234, 1.0);
+  cursor              : pointer;
   top                 : 488px;
   height              : 48px;
   width               : 180px;
@@ -192,18 +193,9 @@ div {
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
 }
-.p11searchp .buttonnext .rectangle4 {
-  background-color    : rgba(47, 91, 234, 1.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 180px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+.p11searchp .buttonnext .button:hover {
+  background-color: rgba(47, 91, 234, 1.0);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .p11searchp .buttonnext .next {
   background-color    : rgba(255,255,255,0.0);

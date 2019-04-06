@@ -4,7 +4,7 @@
                           font-family: "ArialRoundedMTBold";
                           src: url('../fonts/Arial Rounded Bold.ttf') format("truetype");
                         }
-                        
+
 .p11materialidcopy4 {
   width               : 100%;
   min-width           : 1440px;
@@ -47,15 +47,15 @@ div {
 }
 @-webkit-keyframes anima-animate-enter1-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -63,15 +63,15 @@ div {
 }
 @-moz-keyframes anima-animate-enter1-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -79,15 +79,15 @@ div {
 }
 @-o-keyframes anima-animate-enter1-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -95,15 +95,15 @@ div {
 }
 @keyframes anima-animate-enter1-frames {
   0%
-   
+
   {
   opacity: 0;
   transform: scale(1.1);
     }
-  
-    
+
+
   100%
-   
+
   {
   opacity: 1;
   transform: scale(1);
@@ -310,7 +310,7 @@ div {
 }
 .p11materialidcopy4 .modulewelcomecard {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 451px;
+  top                 : 100px;
   height              : 230px;
   width               : 640px;
   position            : absolute;
@@ -473,8 +473,8 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 451px;
-  height              : 404px;
+  top                 : 100px;
+  height              : 428px;
   width               : 540px;
   position            : absolute;
   margin              : 0;
@@ -486,7 +486,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 404px;
+  height              : 428px;
   width               : 540px;
   position            : absolute;
   margin              : 0;
@@ -498,7 +498,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .card {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 404px;
+  height              : 504px;
   width               : 540px;
   position            : absolute;
   margin              : 0;
@@ -510,7 +510,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .card .elementcardbase {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 404px;
+  height              : 500px;
   width               : 540px;
   position            : absolute;
   margin              : 0;
@@ -547,7 +547,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .card .elementcardbase .cardbase1 {
   background-color    : rgba(255, 255, 255, 1.0);
   top                 : 0px;
-  height              : 404px;
+  height              : 504px;
   box-sizing          : border-box;
   width               : 540px;
   position            : absolute;
@@ -613,7 +613,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data {
   background-color    : rgba(255,255,255,0.0);
   top                 : 31px;
-  height              : 328px;
+  height              : 428px;
   width               : 509px;
   position            : absolute;
   margin              : 0;
@@ -692,7 +692,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph {
   background-color    : rgba(255,255,255,0.0);
   top                 : 104px;
-  height              : 224px;
+  height              : 324px;
   width               : 509px;
   position            : absolute;
   margin              : 0;
@@ -704,7 +704,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid {
   background-color    : rgba(255,255,255,0.0);
   top                 : 10px;
-  height              : 187px;
+  height              : 287px;
   width               : 473px;
   position            : absolute;
   margin              : 0;
@@ -716,7 +716,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .vertical {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 185px;
+  height              : 285px;
   width               : 353px;
   position            : absolute;
   margin              : 0;
@@ -729,7 +729,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .vertical .line11 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 184px;
+  height              : 284px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -742,7 +742,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .vertical .line2 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 184px;
+  height              : 284px;
   width               : 2px;
   position            : absolute;
   margin              : 0;
@@ -755,7 +755,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .vertical .line3 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 184px;
+  height              : 284px;
   width               : 2px;
   position            : absolute;
   margin              : 0;
@@ -768,7 +768,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .vertical .line4 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 184px;
+  height              : 284px;
   width               : 1px;
   position            : absolute;
   margin              : 0;
@@ -793,7 +793,7 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .horizontal .line3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
+  top                 : 238px;
   height              : 2px;
   width               : 470px;
   position            : absolute;
@@ -846,7 +846,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .line {
   background-color    : rgba(255,255,255,0.0);
   top                 : 1px;
-  height              : 185px;
+  height              : 285px;
   width               : 2px;
   position            : absolute;
   margin              : 0;
@@ -857,8 +857,8 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .grid .line1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 185px;
-  height              : 2px;
+  top                 : 285px;
+  height              : 3px;
   width               : 473px;
   position            : absolute;
   margin              : 0;
@@ -869,7 +869,7 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .xaxis {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 202px;
+  top                 : 300px;
   height              : 22px;
   width               : 366px;
   position            : absolute;
@@ -950,7 +950,7 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .yaxis .a25 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 139px;
+  top                 : 239px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -969,7 +969,7 @@ div {
 }
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .yaxis .a0 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 185px;
+  top                 : 300px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1046,7 +1046,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart {
   background-color    : rgba(255,255,255,0.0);
   top                 : 31px;
-  height              : 164px;
+  height              : 264px;
   width               : 346px;
   position            : absolute;
   margin              : 0;
@@ -1058,7 +1058,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart .bars {
   background-color    : rgba(255,255,255,0.0);
   top                 : 55px;
-  height              : 109px;
+  height              : 209px;
   width               : 7px;
   position            : absolute;
   margin              : 0;
@@ -1070,7 +1070,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart .bars .bar {
   background-color    : rgba(46, 91, 255, 1.0);
   top                 : 0px;
-  height              : 109px;
+  height              : 209px;
   width               : 7px;
   position            : relative;
   margin              : 0;
@@ -1083,7 +1083,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart .bars1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 41px;
-  height              : 123px;
+  height              : 223px;
   width               : 7px;
   position            : absolute;
   margin              : 0;
@@ -1095,7 +1095,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart .bars1 .bar {
   background-color    : rgba(46, 91, 255, 1.0);
   top                 : 0px;
-  height              : 123px;
+  height              : 223px;
   width               : 7px;
   position            : relative;
   margin              : 0;
@@ -1120,7 +1120,7 @@ div {
 .p11materialidcopy4 .modulelinechartmedium .modulebarchartsmall .data .graph .chart .bars2 .bar {
   background-color    : rgba(46, 91, 255, 1.0);
   top                 : 0px;
-  height              : 164px;
+  height              : 264px;
   width               : 7px;
   position            : relative;
   margin              : 0;
@@ -1172,7 +1172,7 @@ div {
 }
 .p11materialidcopy4 .cardmetricsmall {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 705px;
+  top                 : 450px;
   height              : 150px;
   width               : 200px;
   position            : absolute;
@@ -1198,7 +1198,7 @@ div {
 .p11materialidcopy4 .cardmetricsmall .elementcardbase .background {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
-  height              : 150px;
+  height              : 250px;
   width               : 200px;
   position            : absolute;
   margin              : 0;
@@ -1309,7 +1309,7 @@ div {
 }
 .p11materialidcopy4 .cardmetricsmall1 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 705px;
+  top                 : 450px;
   height              : 150px;
   width               : 200px;
   position            : absolute;
@@ -1446,7 +1446,7 @@ div {
 }
 .p11materialidcopy4 .cardmetricsmall2 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 705px;
+  top                 : 450px;
   height              : 150px;
   width               : 200px;
   position            : absolute;
@@ -1583,7 +1583,7 @@ div {
 }
 .p11materialidcopy4 .modulemapcard {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 985px;
+  top                 : 630px;
   height              : 1018px;
   width               : 1204px;
   position            : absolute;
@@ -1793,12 +1793,20 @@ div {
   transform           : rotate(0deg);
   opacity             : 0.5;
 }
-.p11materialidcopy4 .loanratescopy {
+.p11materialidcopy4 .loanratescopy_head {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1185px;
+  top                 : 700px;
   height              : 121px;
   width               : 1164px;
   position            : absolute;
+  margin              : 0;
+  left                : 133px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.p11materialidcopy4 .loanratescopy {
+  background-color    : rgba(255,255,255,0.0);
   margin              : 0;
   left                : 133px;
   -ms-transform       : rotate(0deg); /* IE 9 */
@@ -4031,7 +4039,7 @@ div {
 }
 .p11materialidcopy4 .group19 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1010px;
+  top                 : 650px;
   height              : 21px;
   width               : 1152px;
   position            : absolute;
@@ -4459,7 +4467,7 @@ div {
   line-height         : 22.0px;
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver .rightcontainer .a6432 .span1 {
-  
+
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver .rightcontainer .a6432 .span2 {
   font-family         : "Rubik", Helvetica, Arial, serif;
@@ -4656,7 +4664,7 @@ div {
   line-height         : 22.0px;
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver1 .rightcontainer .a6432 .span1 {
-  
+
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver1 .rightcontainer .a6432 .span2 {
   font-family         : "Rubik", Helvetica, Arial, serif;
@@ -4853,7 +4861,7 @@ div {
   line-height         : 22.0px;
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver2 .rightcontainer .a6432 .span1 {
-  
+
 }
 .p11materialidcopy4 .moduledriverlistsmall .componentcontentrowdriver2 .rightcontainer .a6432 .span2 {
   font-family         : "Rubik", Helvetica, Arial, serif;
@@ -4991,9 +4999,9 @@ div {
 }
 .p11materialidcopy4 .addresscopy4 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 892px;
+  top                 : 352px;
   height              : 67px;
-  width               : 380px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 120px;
@@ -5005,7 +5013,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 67px;
-  width               : 380px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -5017,7 +5025,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : 46px;
-  width               : 380px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5097,12 +5105,12 @@ div {
 }
 .p11materialidcopy4 .addresscopy5 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 892px;
+  top                 : 352px;
   height              : 67px;
-  width               : 380px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
-  left                : 533px;
+  left                : 340px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -5111,7 +5119,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 0px;
   height              : 67px;
-  width               : 380px;
+  width               : 200px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -5123,7 +5131,7 @@ div {
   background-color    : rgba(255,255,255,0.0);
   top                 : 21px;
   height              : 46px;
-  width               : 380px;
+  width               : 200px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
@@ -5203,12 +5211,12 @@ div {
 }
 .p11materialidcopy4 .group3 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 917px;
+  top                 : 383px;
   height              : 40px;
-  width               : 121px;
+  width               : 120px;
   position            : absolute;
   margin              : 0;
-  left                : 933px;
+  left                : 565px;
   -ms-transform       : rotate(0deg); /* IE 9 */
   -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
   transform           : rotate(0deg);
@@ -5257,7 +5265,7 @@ div {
 }
 .p11materialidcopy4 .group3copy {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2084px;
+  top                 : 1084px;
   height              : 48px;
   width               : 180px;
   position            : absolute;
@@ -5299,7 +5307,7 @@ div {
 }
 .p11materialidcopy4 .buttonnext {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 2084px;
+  top                 : 1084px;
   height              : 48px;
   width               : 180px;
   position            : absolute;
@@ -5364,56 +5372,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }

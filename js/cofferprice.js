@@ -1,4 +1,46 @@
+//TODO Get local storage data from previous page
+// var queryString = decodeURIComponent(window.location.search);
+// queryString = queryString.substring(1);
+// var queries = queryString.split("&para");
+// var spec_id = queries[0];
+// var mat_no = queries[1];
+// var mat_desc = queries[2];
+// var url = queries[3];
+// postData(spec_id, mat_no, mat_desc, url);
+// localStorage.setItem("spec_id", spec_id);
+// localStorage.setItem("mat_no", mat_no);
+// localStorage.setItem("mat_desc", mat_desc);
+// localStorage.setItem("url", url);
+
+
 $(function() {
+
+  // TODO: Display selected material 
+  // let selected_mat_img = '';
+  // let headerimage = '<img class="cardbase" ';
+  // let selectedimg_url = " src=\"data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" ";
+  // let endimage = '/>';
+  // selected_mat_img += headerimage + selectedimg_url + endimage;
+  // document.getElementById("selected-mat-img").innerHTML = selected_mat_img;
+
+  let selected_spec_id = '';
+  let specidtitle = '<div class=\"specidrt153112\"> Spec ID      : ';
+  let spec_mat_name = 'Hello World';
+  let div_end = '</div>';
+  selected_spec_id += (specidtitle + spec_mat_name + div_end);
+  document.getElementById("selected-mat1").innerHTML = selected_spec_id;
+
+  let selected_mat_id = '';
+  let matidtitle = '<div class=\"materialid105001\"> Material ID: ';
+  let mat_num = '123456789';
+  selected_mat_id += (matidtitle + mat_num + div_end);
+  document.getElementById("selected-mat2").innerHTML = selected_mat_id;
+
+  let selected_mat_detail = '';
+  let test_detail = '50 kVA, three-phase transformer, permanently sealed and completely oil filled system (without gas cushion) type, withstand short-circuit, 22,000-416/240V, symbol Dyn11.'
+  let detailtitle = '<div class=\"allcarsareoperatingwelltherewere1233tripssinceyourlastlogin\">';
+  selected_mat_detail += detailtitle + test_detail + div_end;
+  document.getElementById("selected-mat3").innerHTML = selected_mat_detail;
 
   $(document).ready(function() {
     $('#mat_document').on('change', function(evt) {
@@ -9,10 +51,10 @@ $(function() {
       var filename = this.files[0].name;
       // console.log(this.files[0].name);
 
-      var filesize = (this.files[0].size)/(1024*1024);
+      var filesize = (this.files[0].size) / (1024 * 1024);
       // console.log(filesize);
 
-      if (this.files[0].size >= 2*1024*1024) {
+      if (this.files[0].size >= 2 * 1024 * 1024) {
         alert("PDF file of maximum 2MB. Please try again.");
       }
 
@@ -57,6 +99,7 @@ $(function() {
         base64 = data.replace(/^[^,]*,/, ''),
         info = {
           headers: {
+            'Accept': 'application/json',
             "Content-Type": "application/json",
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "GET,POST"
@@ -64,10 +107,10 @@ $(function() {
           contentType: "application/json",
           data: JSON.stringify({
             "quo_upload_file": base64,
-            "price"          : matprice,
-            "min_vol"        : matvol,
-            "mat_no"         : "12345",
-            "comp_id"        : "12345"
+            "price": matprice,
+            "min_vol": matvol,
+            "mat_no": "1050010056",
+            "comp_id": "15"
           })
         };
       // console.log(info);
@@ -122,28 +165,52 @@ function confirmoffer() {
   // console.log(info_json);
   // console.log(info);
   jQuery.ajax({
-    url: "https://hookb.in/1gYaYxZBezCDmD2qx2M1",
-    // url: "https://peahub21.azurewebsites.net/api/v2.0/offer/",
-    // url: "http://192.168.43.175:8000/api/ball/testpdf/",
-    type: "POST",
-    dataType: "JSON",
-    // data: JSON.stringify(),
-    data: info,
-    cache: false,
-    contentType: false,
-    processData: false,
-    success: function(response) {
-      console.log(response);
-      if (response.success == true) {
+      // url: "https://hookb.in/QJY0XzanbpU9r92dl23o",
+      url: "https://peahub21.azurewebsites.net/api/v2.0/offer/",
+      // url: "http://192.168.43.175:8000/api/ball/testpdf/",
+      type: "POST",
+      dataType: "JSON",
+      // data: JSON.stringify(),
+      data: info,
+      cache: false,
+      contentType: false,
+      processData: false,
+      // success: function(response) {
+      //   console.log(response);
+      //   if (response.success == true) {
+      // alert("Document uploaded successfully.");
+      //     // console.log("reset file");
+      //     // file = $('#mat_document')[0].reset;
+      //       // get_response_offer ();
+      //       offer_next_page();
+      //
+      //
+      //
+      //   } else
+      //     alert("Document uploaded failed!!!.");
+      //   // alert("Document uploaded successfully.");
+      // }
+    })
+    .done(function(data, textStatus, jqXHR) {
+      console.log("HTTP Request Succeeded: " + jqXHR.status);
+      console.log(data);
+      if (jqXHR.status == 200) {
         alert("Document uploaded successfully.");
-        // console.log("reset file");
-        // file = $('#mat_document')[0].reset;
+        console.log(data['type']);
+        console.log("gggggggg");
+        // get_response_offer(data);
+        // offer_next_page();
+
       } else
         alert("Document uploaded failed!!!.");
-      // alert("Document uploaded successfully.");
-    }
-  });
-
+    })
+    .fail(function(jqXHR, textStatus, errorThrown) {
+      alert("Document uploaded failed!!!.");
+      console.log("HTTP Request Failed");
+    })
+    .always(function() {
+      /* ... */
+    });
 }
 
 function deletePDF() {
@@ -152,4 +219,33 @@ function deletePDF() {
   document.getElementById("offer_result").style.visibility = "hidden";
   document.getElementById('pdfform').reset();
   return;
+}
+
+function offer_next_page() {
+  window.location.href = "c11finalcopy2.html"; //+ queryString
+}
+
+// TODO
+function get_response_offer(data) {
+
+  // collect variable to var before save to localStorage
+  var spec_id = obj['spec_id'];
+  var mat_no = obj['mat_no'];
+  var mat_desc = obj['mat_desc'];
+  var price = obj['price'];
+  var minvalue = obj['min'];
+  var url = obj['url'];
+  var timestamp = obj['date'];
+  // TODO store data to localStorage
+  var theID = document.getElementsByClassName("buttonnext")[0].id;
+  var index = theID.split("_");
+  var i = index[1];
+  var search_result = localStorage.getItem("search_result");
+  var search_result_json = JSON.parse(search_result);
+  var mat_no = search_result_json[i].mat_no;
+  var spec_id = search_result_json[i].spec_id;
+  var mat_desc = search_result_json[i].mat_desc;
+  var url = search_result_json[i].url;
+  var queryString = "?" + spec_id + "&para=" + mat_no + "&para=" + mat_desc + "&para=" + url;
+  console.log(queryString);
 }

@@ -63,7 +63,9 @@
             <div id="selected-mat1">
 
             </div>
+
             <div id="selected-mat2">
+
 
             </div>
             <div id="selected-mat3">
@@ -100,6 +102,7 @@
             </div>
           </div>
         </form>
+        <span id="base64result"></span>
         <div class="text">
           <div class="group12">
             <img anima-src="./img/c-1-1-material-id---price-textfield-1.png" class="textfield" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
@@ -135,8 +138,8 @@
               </span>
               <span class="span3"> choose files from your device</span>
               <form id="pdfform" style="height: auto; width: auto; margin-top:8px;">
-                <input type="file" accept="application/pdf" name="mat_document" id="mat_document" style="width: 250px;">
-                <input type="submit" id="submit">
+                <input type="file" accept="application/pdf" name="mat_document" id="mat_document" style="width: 250px;" onchange="convertToBase64();">
+                <!-- <input type="submit" id="submit"> -->
               </form>
             </div>
             <img anima-src="./img/c-1-1-material-id---price-uploadicon.png" class="uploadicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
